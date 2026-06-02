@@ -2,28 +2,14 @@
 Changelog for package libyaml_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.9.0 (2026-05-06)
+1.6.4 (2026-06-02)
 ------------------
-
-1.8.1 (2026-04-14)
-------------------
-
-* Replace ament_vendor with cmake module (`#67 <https://github.com/ros2/libyaml_vendor/issues/67>`_)
-
-* Contributors: Alejandro Hernández Cordero
-
-1.8.0 (2025-04-25)
-------------------
-* Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#65 <https://github.com/ros2/libyaml_vendor/issues/65>`_)
-* Contributors: Chris Lalancette
-
-1.7.1 (2024-11-20)
-------------------
-* Only set CRT_SECURE_NO_WARNINGS if it hasn't already been set. (`#64 <https://github.com/ros2/libyaml_vendor/issues/64>`_)
-* Contributors: Chris Lalancette
-
-1.7.0 (2024-04-26)
-------------------
+* Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#65 <https://github.com/ros2/libyaml_vendor/issues/65>`_) (`#66 <https://github.com/ros2/libyaml_vendor/issues/66>`_)
+  They are both outdated, and both no longer serving their
+  intended purpose.
+  (cherry picked from commit 855754620fd05bdc7601d464958522b395435f3c)
+  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
+* Contributors: mergify[bot]
 
 1.6.3 (2024-04-16)
 ------------------
